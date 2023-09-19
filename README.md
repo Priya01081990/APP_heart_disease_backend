@@ -1,14 +1,14 @@
 # paitent-med-backend
 
-# clone the project:
+## clone the project:
    -make folder on your desktop
    
    -go to Folder path and write cmd (command prompt opens)
    
    -git clone the link
-# open the project in editor(eg: Visual Studio Code)
+### open the project in editor(eg: Visual Studio Code)
    
-# create env file:
+### create env file:
 -make a file outside of src (.env)
 
 - copy this and paste in .env file
@@ -18,7 +18,7 @@ SECRET_KEY=sdljvnsv
 SWAGGER_UNAME=your name
 SWAGGER_PASSWORD=your password
 
-# install some packages in terminal:
+### install some packages in terminal:
 -first do **npm i** after cloning the project
 
 I have mentioned some properties under the scripts object in package.json all have different tasks
@@ -37,17 +37,17 @@ I have mentioned some properties under the scripts object in package.json all ha
 
 http://localhost:3005/patient-med-docs (swagger documentation/ uname and password are given in the .env)
 
-# install seeders for the first time:
+### install seeders for the first time:
 -npm run moduleSeeder
 
 -npm run attributeSeeder
 
 -npm run dynamicAttributeSeeder
 
-# run the project:
+### run the project:
 -npm run dev
 
-# paitent-med-database:
+### paitent-med-database:
   -install pgAdmin4 and configure
   
   -configure project
